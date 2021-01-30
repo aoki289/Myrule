@@ -1,0 +1,11 @@
+//Cygames
+
+host-keyword, cygames, proxy
+host-keyword, starlight-stage, proxy
+host-suffix, bugsnag.com, proxy
+host-suffix, mbga.jp, proxy, proxy
+host-suffix, granbluefantasy.jp, proxy
+host-suffix, mbga-platform.jp, proxy
+host-suffix, blhx.danmu9.com, proxy
+host-suffix, akamaized.net, proxy
+host-suffix, priconne-redive.jp, proxy
