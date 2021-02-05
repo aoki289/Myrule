@@ -1,0 +1,12 @@
+# 重写
+
+[URL Rewrite]
+#飞卢去广告
+http:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/\obj/ _ reject
+http:\/\/img\.faloo\.com\/ou\/ _ reject
+
+#碧蓝幻想汉化
+^http://(game-a3\.granbluefantasy\.jp|gbf\.game-a3\.mbga\.jp)/assets(_en)?/\d+/js[^/]*/config\.js$ https://cdn.jsdelivr.net/gh/biuuu/BLHXFY@gh-pages/blhxfy/game-config.js 307
+
+[MITM]
+hostname = img.faloo.comapi
