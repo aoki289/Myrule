@@ -1,5 +1,6 @@
-# 公主链接日服
+# priconne-redive.jp
 
 host-keyword, cygames, proxy
+host-suffix, cygames.jp, proxy
 host-suffix, priconne-redive.jp, proxy
 host-suffix, akamaized.net, proxy
