@@ -12,8 +12,6 @@
 Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.net,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 #高级订阅管理工具 @Peng-YM
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=true,timeout=120,max-size=131072
-#获取并提交助力码 @qq34347476
-获取并提交助力码 = type=cron,cronexp="20 * 0/1 1,8,16,24 * ?",wake-system=1,timeout=120,script-path=https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js
 
 [MITM]
 hostname=%APPEND% sub.store
