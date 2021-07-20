@@ -1,6 +1,7 @@
 //Cygames
 
 host-keyword, cygames, proxy
+host-keyword, jsdelivr, proxy
 host-keyword, starlight-stage, proxy
 host-suffix, mbga.jp, proxy, proxy
 host-suffix, granbluefantasy.jp, proxy
